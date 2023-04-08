@@ -1,8 +1,35 @@
-# c_irc
+# ft_irc
 
-## A 42 School's Project : ft_irc
+ft_irc is a small IRC server written in C++.  
+It allows users to connect, join rooms, and chat between each other.
 
-The goal of this project is to create a functionnal irc server.
-Of course, the scope of the project is reduced quite a bit,
-we neither have to handle every available command,
-nor handle communication with other irc servers.
+For this team project, i was teamed up with [Marion Belorgey](https://github.com/marioonb)
+
+## Features
+
+The following commands are implemented :
+
+- cap
+- info
+- invite
+- join
+- kick
+- list
+- motd
+- names
+- nick
+- notice
+- oper
+- part
+- pass
+- privmsg
+- quit
+- topic
+- user
+- version
+
+## Usage
+
+	```bash
+	make && ./ircserv <port> <password>
+	```
