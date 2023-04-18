@@ -1,5 +1,6 @@
 # ft_irc
 
+
 ft_irc is a small IRC server written in C++.  
 It allows users to connect, join rooms, and chat between each other.
 
